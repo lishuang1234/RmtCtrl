@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"  
+    android:layout_width="fill_parent"  
+    android:layout_height="fill_parent"
+    android:orientation="vertical"  >
+        <TextView 
+    	android:layout_width="fill_parent"  
+    	android:layout_height="wrap_content" 
+    	android:layout_weight="1"  
+    	android:background="#000000"
+    	android:textColor="#ffffff"
+    	android:gravity="center"
+    	android:text="手机远程监控系统" />
+<GridView
+    android:id="@+id/gridview"  
+    android:layout_width="fill_parent"  
+    android:layout_height="wrap_content"  
+    android:numColumns="auto_fit"  
+    android:verticalSpacing="10dp"  
+    android:horizontalSpacing="10dp"  
+    android:columnWidth="90dp"
+    android:layout_weight="10"  
+    android:background="#ccecff"
+    android:stretchMode="columnWidth"  
+    android:gravity="center"   
+    />      
+<TextView 
+    	android:layout_width="fill_parent"  
+    	android:layout_height="wrap_content" 
+    	android:layout_weight="1"  
+    	android:layout_gravity="bottom"
+    	android:background="#000000"
+    	android:textColor="#ffffff"
+    	android:gravity="right"
+    	android:text="远程监监控系统" />
+</LinearLayout>
